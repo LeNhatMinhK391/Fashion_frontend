@@ -1,6 +1,6 @@
 //product
 async function fetchProducts() {
-    const res = await fetch('http://localhost:5000/api/products');
+    const res = await fetch('https://fashion-store-frontend-jx4s.onrender.com/api/products');
     const products = await res.json();
   
     const container = document.getElementById('product-list');
@@ -25,7 +25,7 @@ async function fetchProducts() {
 
     //slider
     async function fetchSliders() {
-      const res = await fetch('http://localhost:5000/api/sliders');
+      const res = await fetch('https://fashion-store-frontend-jx4s.onrender.com/api/sliders');
       const sliders = await res.json();
     
       const sliderContainer = document.querySelector('.slides'); // slides là div chứa các slide
@@ -69,7 +69,7 @@ async function fetchProducts() {
   
 //danh mục sản phẩm 
 async function fetchCategories() {
-  const res = await fetch('http://localhost:5000/api/categories');
+  const res = await fetch('https://fashion-store-frontend-jx4s.onrender.com/api/categories');
   const categories = await res.json();
 
   const container = document.getElementById('category-list');
