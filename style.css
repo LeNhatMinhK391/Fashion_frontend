@@ -420,3 +420,6 @@ nav {
         display: none;
     }
 }
+.section-title > h1 > a {
+    font-size: 25px;
+}
