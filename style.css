@@ -406,13 +406,13 @@ nav {
 .button:hover a {
   color: white;
 }
-@media (min-width:1024 px) {
+@media (min-width:1024px) {
     
 }
-@media (min-width:740 px) and (max-width: 1023 px) {
+@media (min-width:740px) and (max-width: 1023px) {
     
 }
-@media (max-width:739 px) {
+@media (max-width:739px) {
     .top-bar {
         display: none;
 }
